@@ -1,0 +1,46 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif
+}
+body{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.quiz-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+  .iconWrapper{
+    position: absolute;
+    bottom:0;
+    right:500px;
+    cursor: pointer;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+  }
+  .end-screen{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // animation-name:fadeIn;
+    // animation-duration: 1s;
+    .congratulations-message{
+      animation-name:fadeIn;
+      animation-duration: 1s;
+    }
+  }
+}
+@keyframes fadeIn{
+  from {opacity:0;}
+  to {opacity:100;}
+}

@@ -1,0 +1,37 @@
+.question-cards{
+    width: 750px;
+    height: 450px;
+    border-radius: 25px;
+    margin-top: 100px;
+    position:relative;
+    div{
+        width: 750px;
+        height: 450px;
+        border-radius: 25px;
+        position: absolute;
+    }
+    .card-1{
+        background-color: rgba(171, 162, 162, 1);
+        transform: rotate(-0.96deg);
+        z-index: 0;
+    }
+    .card-2{
+        top:5px;
+        left:5px;
+        background: #EDEAEA;
+        transform: rotate(-1.99deg);
+        z-index: 0;
+    }
+    .card-3{
+        top:15px;
+        left:15px;
+        background: #D9D9D9;
+        transform: rotate(-1.53deg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 40px;
+        }
+    }
+}
